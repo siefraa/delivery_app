@@ -1,3 +1,7 @@
+<<<<<<< HEAD
+=======
+import 'package:flutter/material.dart';
+>>>>>>> 6cda9b75bf00bc323f4a39c2e19987eabd9f01b9
 enum UserRole {
   admin,
   customer,
@@ -326,6 +330,7 @@ class Rider {
         return Colors.blue;
     }
   }
+<<<<<<< HEAD
 }
 
 class Colors {
@@ -341,3 +346,6 @@ class Color {
   final int value;
   const Color(this.value);
 }
+=======
+}
+>>>>>>> 6cda9b75bf00bc323f4a39c2e19987eabd9f01b9

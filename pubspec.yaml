@@ -1,7 +1,13 @@
 name: delivery_app
+<<<<<<< HEAD
 description: Complete delivery app with Firebase, Maps, M-Pesa, and Push Notifications
 publish_to: 'none'
 version: 2.0.0+1
+=======
+description: Complete delivery application with admin, customer, and rider interfaces
+publish_to: 'none'
+version: 1.0.0+1
+>>>>>>> 6cda9b75bf00bc323f4a39c2e19987eabd9f01b9
 
 environment:
   sdk: '>=3.0.0 <4.0.0'
@@ -10,6 +16,7 @@ dependencies:
   flutter:
     sdk: flutter
   
+<<<<<<< HEAD
   # UI
   cupertino_icons: ^1.0.6
   
@@ -56,6 +63,20 @@ dependencies:
   
   # Environment Variables
   flutter_dotenv: ^5.1.0
+=======
+  cupertino_icons: ^1.0.6
+  
+  # For future integration:
+  # http: ^1.1.0
+  # firebase_core: ^2.24.2
+  # firebase_auth: ^4.16.0
+  # cloud_firestore: ^4.14.0
+  # google_maps_flutter: ^2.5.0
+  # geolocator: ^10.1.0
+  # geocoding: ^2.1.1
+  # provider: ^6.1.1
+  # shared_preferences: ^2.2.2
+>>>>>>> 6cda9b75bf00bc323f4a39c2e19987eabd9f01b9
 
 dev_dependencies:
   flutter_test:
@@ -64,6 +85,7 @@ dev_dependencies:
 
 flutter:
   uses-material-design: true
+<<<<<<< HEAD
   
   assets:
     - .env
@@ -77,3 +99,5 @@ flutter:
   #       - asset: fonts/Poppins-Regular.ttf
   #       - asset: fonts/Poppins-Bold.ttf
   #         weight: 700
+=======
+>>>>>>> 6cda9b75bf00bc323f4a39c2e19987eabd9f01b9
